@@ -11,7 +11,7 @@ napoved_preseljevanja$Vrsta <- "Napoved"
 skupna_tabela <- rbind(skupno_leta, napoved_preseljevanja)
 
 graf_napoved <- ggplot(skupna_tabela, aes(x=Leto, y=Stevilo_priseljenih_iz_tujine, shape=Vrsta)) +
-  geom_smooth(method=lm, se=TRUE, fullrange = TRUE, color="#ff6d44") +
+  geom_smooth(formula = y ~ x, method=lm, se=TRUE, fullrange = TRUE, color="#ff6d44") +
   geom_point(data=skupno_leta, aes(x=Leto, y=Stevilo_priseljenih_iz_tujine), color="blue", size=1) +
   labs(title="Napoved števila priseljenih ljudi v Slovenijo", y="Število priseljenih", x="Leto") + geom_point(color="blue")
   
@@ -26,7 +26,7 @@ napoved_izseljevanja$Vrsta <- "Napoved"
 skupna_tabela2 <- rbind(skupno_leta_iz, napoved_izseljevanja)
 
 graf_napoved2 <- ggplot(skupna_tabela2, aes(x=Leto, y=Stevilo_odseljenih_v_tujino, shape=Vrsta)) +
-  geom_smooth(method=lm, se=TRUE, fullrange = TRUE, color="#01c659") +
+  geom_smooth(formula = y ~ x, method=lm, se=TRUE, fullrange = TRUE, color="#01c659") +
   geom_point(data=skupno_leta_iz, aes(x=Leto, y=Stevilo_odseljenih_v_tujino), color="orange", size=1) +
   labs(title="Napoved števila odseljenih iz Slovenije", y="Število odseljenih", x="Leto") + geom_point(color="yellow")
 

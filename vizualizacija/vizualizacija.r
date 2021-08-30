@@ -178,9 +178,9 @@ starost_graf2 <- ggplot(data=tabela4, aes(x=Leto, y=Stevilo_priseljenih, fill=fa
 
 
 # IZOBRAZBA
-tabela5 <- tabela5 %>% rename("Drzava"="Drzava_prihodnjega_bivalisca")
-tabela6 <- tabela6 %>% rename("Stevilo_priseljenih"="Stevilo") 
-tabela_izobrazba <- inner_join(tabela5, tabela6, by=NULL) %>% 
+tabela5nova <- tabela5 %>% rename("Drzava"="Drzava_prihodnjega_bivalisca")
+tabela6nova <- tabela6 %>% rename("Stevilo_priseljenih"="Stevilo") 
+tabela_izobrazba <- inner_join(tabela5nova, tabela6nova, by=NULL) %>% 
   pivot_longer(5:6, names_to="Vrsta", values_to="Stevilo") 
 tabela_izobrazba$Vrsta[tabela_izobrazba$Vrsta == "Stevilo_priseljenih"] <- "Priseljeni"
 tabela_izobrazba$Vrsta[tabela_izobrazba$Vrsta == "Stevilo_odseljenih"] <- "Izseljeni"
