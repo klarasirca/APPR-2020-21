@@ -172,7 +172,7 @@ Spodaj na dveh grafih si lahko ogledamo priseljevanje in izseljevanje glede na m
 print(spol_graf)
 ```
 
-Opazimo lahko, da se je izseljevanje moških in žensk gibalo zelo podobno, le da je število žensk, ki se izseljuje za malenkost manjše od števila moških.Zanimivo je, da je v času epidemije COVID-19 izseljevanje moških in žensk doseglo skoraj enako raven, to pa na račun moških, ki so se izseljevali malo manj kot prejšnje leto. Zanimivo pa je, kako se razlikuje priseljevanje žensk in moških. Opazimo lahko, da je priseljevanje moških v Slovenijo znatno večje od žensk, to pa je posledica tega, da se večinoma k nam na začetku priseljujejo moški iz držav bivše Jugoslavije zaradi dela. Zanimivo je tudi, da je število priseljenih moških v letu 2020 zelo upadlo, število priseljenih žensk pa je celo naraslo. To je posledica manj prostih delovnih mest v Sloveniji v letu 2020 zaradi posledic epidemije COVID-19. Razlog za porast priseljenih žensk v letu 2020 pa je verjetno to, da so se ženske v tem letu preselile zaradi združitve s svojo družino.
+Opazimo lahko, da se je izseljevanje moških in žensk gibalo zelo podobno, le da je število žensk, ki se izseljuje za malenkost manjše od števila moških. Zanimivo je, da je v času epidemije COVID-19 izseljevanje moških in žensk doseglo skoraj enako raven, to pa na račun moških, ki so se izseljevali malo manj kot prejšnje leto. Zanimivo pa je, kako se razlikuje priseljevanje žensk in moških. Opazimo lahko, da je priseljevanje moških v Slovenijo znatno večje od žensk, to pa je posledica tega, da se večinoma k nam na začetku priseljujejo moški iz držav bivše Jugoslavije zaradi dela. Zanimivo je tudi, da je število priseljenih moških v letu 2020 zelo upadlo, število priseljenih žensk pa je celo naraslo. To je posledica manj prostih delovnih mest v Sloveniji v letu 2020 zaradi posledic epidemije COVID-19. Razlog za porast priseljenih žensk v letu 2020 pa je verjetno to, da so se ženske v tem letu priselile v Slovenijo zaradi združitve s svojo družino.
 
 
 ### Stopnja izobrazbe priseljenih in izseljenih ljudi
@@ -210,7 +210,7 @@ Spodnji diagram prikazuje starostno strukturo priseljencev v letih 2011-20.
 print(starost_graf2)
 ```
 
-Na diagramu vidimo, da je se največ ljudi priseljuje k nam v starostnih skupinah 20-24 ter 25-29 in 30-34. To je seveda dobro, saj si želimo, da bi v državo prihajalo delovno aktivno prebivalstvo. Zanimivo je dejstvo, da se k nam priseli tudi veliko otrok starih do 15 let, kar je verjetno posledica tega, da se k nam priseljujejo celotne družine. V starostnih skupinah od 55 let naprej pa se k nam priseli malo ljudi.
+Na diagramu vidimo, da se največ ljudi priseljuje k nam v starostnih skupinah od 20-24 ter od 25-29 in od 30-34 let. To je seveda dobro, saj si želimo, da bi v državo prihajalo delovno aktivno prebivalstvo. Zanimivo je dejstvo, da se k nam priseli tudi veliko otrok starih do 15 let, kar je verjetno posledica tega, da se k nam priseljujejo celotne družine. V starostnih skupinah od 55 let naprej pa se k nam priseli malo ljudi.
 
 # Namen prihoda priseljencev v Slovenijo
 Spodnji tortni diagram prikazuje, kaj so priseljenci navedli, da je njihov namen prihoda v Slovenijo ob priselitvi. Diagram je generiran za obdobje od leta 2011 do leta 2019.
@@ -219,7 +219,7 @@ Spodnji tortni diagram prikazuje, kaj so priseljenci navedli, da je njihov namen
 print(namen_priselitve)
 ```
 
-Vidimo, da je glavni razlo priseljencev za prihod v Slovenijo zaposlitev, takoj za tem pa nastopi združitev z družino. Študentje predstavljajo nekoliko manjši delež priseljencev.
+Vidimo, da je glavni razlog priseljencev za prihod v Slovenijo zaposlitev, takoj za tem pa nastopi združitev z družino. Študentje predstavljajo nekoliko manjši delež priseljencev.
 
 ### Dejavnosti, s katerimi se ukvarjajo priseljenci
 Na spodnjem histogramu si oglejmo še povprečno letno število priseljencev glede na dejavnost, s katero se ukvarjajo. Povprečje je izračunano za obdobje 2011-19. Zaradi bolj pregledne predstavitve so na diagramu predstavljene le najbolj zastopane dejavnosti.
@@ -240,7 +240,7 @@ Tudi izseljevanje sem obravnavala glede na statistične regije. Spodnji zemljevi
 print(zemljevid_slo1)
 ```
 
-Opazimo, da se največ ljudi izseljuje iz Obalno-kraške regije, prav tako pa takoj zatem sleti Osrednjeslovenska regija. Ta podatek je zanimiv, saj sta to regiji, ki sta gospodarsko kar močni. Zanimivo pa je, da se iz Zasavske in Koroške regije ne izseljuje veliko ljudi.
+Opazimo, da se največ ljudi izseljuje iz Obalno-kraške regije, prav tako pa takoj zatem sledi Osrednjeslovenska regija. Ta podatek je zanimiv, saj sta to regiji, ki sta gospodarsko kar močni. Zanimivo pa je, da se iz Zasavske in Koroške regije ne izseljuje veliko ljudi.
 
 ### Kam se izseljujejo Slovenci
 Spodnji točkovni diagram prikazuje države, po letih, kamor so se priselili slovenski državljani, ko so se izselili iz Slovenije.
@@ -249,10 +249,10 @@ Spodnji točkovni diagram prikazuje države, po letih, kamor so se priselili slo
 print(graf6)
 ```
 
-Izseljenci se večinsko izseljujejo v Avstrijo, Nemčijo, druge države Evrope in Švico. (Žal uvožene datoteke niso bile preveč specifične, katere države so to.) Priljubljene pa so tudi Združene države Amerike ter Italija.
+Izseljenci se večinsko izseljujejo v Avstrijo, Nemčijo, druge države Evrope in Švico. (Žal uvoženi podatki niso bili preveč specifični, katere države so to.) Priljubljene pa so tudi Združene države Amerike ter Italija.
 
 ### Starostna skupina izseljencev
-Sedaj pa si tudi za izseljence poglejmo, kakšna je  njihova starostna struktura. Spodnji diagram prikazuje starostne strukture izseljencev po letih za leta 2011-19.
+Sedaj pa si tudi za izseljence poglejmo, kakšna je  njihova starostna struktura. Spodnji diagram prikazuje starostne strukture izseljencev po letih 2011-19.
 
 ```{r starost_graf1, echo=FALSE, message=FALSE, warning=FALSE, fig.align='center'}
 print(starost_graf1)
@@ -268,7 +268,7 @@ Za konec analize izseljevanja v Sloveniji pa si oglejmo še analizo dejavnosti, 
 print(dejavnost2)
 ```
 
-Največ izseljencev se ukvarja s predelovalnimi dejavnostmi, trgovino, vzdrževanjem in popravilo motornih vozil ter gradbeništvom. Veliko se jih ukvarja tudi s strokovnimi, znanstevnimi in tehničnimi dejavnostmi, veliko pa jih je zaposlenih v zdravstvu in izobraževanju. Ta podatek je zaskrbljujoč, saj nam tega kadra v Sloveniji primanjkuje, v Slovenijo pa se ne priseli dovolj ljudi iz teh strok, da bi bil selitveni prirast pozitiven. V kolikor bomo želeli to spremeniti, bo Slovenija morala spremeniti delovne pogoje na teh področjih, da bodo delovne razmere boljše in da bodo Slovenci želeli ostati doma.
+Največ izseljencev se ukvarja s predelovalnimi dejavnostmi, trgovino, vzdrževanjem in popravilo motornih vozil ter gradbeništvom. Veliko se jih ukvarja tudi s strokovnimi, znanstevnimi in tehničnimi dejavnostmi, veliko pa jih je zaposlenih v zdravstvu in izobraževanju. Ta podatek je zaskrbljujoč, saj nam tega kadra v Sloveniji primanjkuje, v Slovenijo pa se ne priseli dovolj ljudi iz teh strok, da bi bil selitveni prirast na tem področju pozitiven. V kolikor bomo želeli to spremeniti, bo Slovenija morala spremeniti delovne pogoje na teh področjih, da bodo delovne razmere boljše in da bodo Slovenci želeli ostati doma.
 
 
 ## Priseljevanje in izseljevanje v Evropi
@@ -278,7 +278,7 @@ Sedaj pa si za občutek in primerjavo poglejmo še, kakšno je priseljevanje in 
 tmap_arrange(zemljevid1, zemljevid2)
 ```
 
-Na levem zemljevidu lahko opazimo, da se v Luksemburg priseljuje največ ljudi na 100.000 prebivalcev. Luksemburg je gospodarsko zelo razvita država, njihova prednost pa je predvsem finančni sektor, ki je verjetno zelo privlačna za priseljence. Veliko priseljencev na 100.000 prebivalcev pa imajo tudi Islandija, za njo pa Švica in Irska. Veliko jih imajo tudi Nemčija, Avstrija, Belgija in Skandinavske države. Vsem tem državam je skupno močno gospodarstvo in močna demokracija. Manj priseljencev pa imajo Hrvaška, Portugalska, Slovaška in Češka.
+Na levem zemljevidu lahko opazimo, da se v Luksemburg priseljuje največ ljudi na 100.000 prebivalcev. Luksemburg je gospodarsko zelo razvita država, njihova prednost pa je predvsem finančni sektor, ki je verjetno zelo privlačna za priseljence. Veliko priseljencev na 100.000 prebivalcev pa imajo tudi Islandija, za njo pa Švica in Irska. Veliko jih imajo tudi Nemčija, Avstrija, Belgija in Skandinavske države. Vsem tem državam je skupno močno gospodarstvo in stabilna demokracija. Manj priseljencev pa imajo Hrvaška, Portugalska, Slovaška in Češka.
 
 Na desnem zemljevidu pa lahko opazimo, da ima Luksemburg največ izseljencev na 100.000 prebivalcev. Veliko jih imajo tudi Islandija, Švica ter Irska. Razlogi v tem so verjetno to, da je v statistiko izseljencev zajetih tudi veliko tujcev, ki so se prvotno v tisto državo priselili in tam niso dolgo ostali. Veliko pa imajo izseljencev na 100.000 prebivalcev tudi Latvija in Litva ter Španija, Grčija ter Romunija.
 
@@ -290,7 +290,7 @@ Na desnem zemljevidu pa lahko opazimo, da ima Luksemburg največ izseljencev na 
 source("analiza/analiza.r", encoding="UTF-8")
 ```
 
-V nadaljnjem razdelku sem preizkusila še dve metodi modeliranja in napredne analize priseljevanja_: z linearnim modelom  in razvrščanjem - **clustering**.
+V nadaljnjem razdelku sem preizkusila še dve metodi modeliranja in napredne analize priseljevanja_: z linearnim modelom in razvrščanjem - k-means **clustering**.
 
 
 Spodnji graf prikazuje meritve in napoved števila priseljenih skozi leta. Meritve so izvedene za leta 2011-20, napoved pa za leta 2021-25.
@@ -301,7 +301,7 @@ print(graf_napoved)
 
 Vemo že, da je število priseljenih ljudi v Slovenijo skozi leta naraščalo. Napovedi kažejo, da bo tako tudi v naslednjih letih ter da se bo število priseljencev v Slovenijo še kar naprej povečevalo, kar pa ni presenetljivo.
 
-Nadaljnje sem na zemljevidu Slovenije preizkusila še k-means clustering, in poskušala statistične regije razvrstiti v 4 skupine glede na povprečno število izseljenih in priseljenih ljudi na prebivalce. Seveda je ta metoda še boljša na večjih skupinah, pa vendar so me zanimali rezultati
+Nadaljnje sem na zemljevidu Slovenije preizkusila še k-means clustering, in poskušala statistične regije razvrstiti v 4 skupine glede na povprečno število izseljenih in priseljenih ljudi na prebivalce. Seveda je ta metoda še boljša na večjih skupinah, pa vendar so me zanimali rezultati.
 .
 ```{r zemljevid_reg_skup_emiimi, fig.align='center'}
 tmap_arrange(zemljevid_reg_skup_emi,zemljevid_reg_skup_imi)
