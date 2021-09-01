@@ -5,19 +5,19 @@ library(gsubfn)
 library(tidyr)
 library(tmap)
 library(shiny)
-library(rmarkdown)
-library(DT)
-library(rgdal)
-library(rgeos)
-library(digest)
 library(dplyr)
 library(ggplot2)
-library(mosaic)
+
+#library(rgdal)
+#library(rgeos)
+#library(digest)
+#library(mosaic)
+
+library(rmarkdown)
+library(DT)
 library(maptools)
-library(tmap)
 library(extrafont)
-
-
+library(stringr)
 
 options(gsubfn.engine="R")
 
