@@ -15,9 +15,9 @@
 
 install.packages("jcolors")
 
-install.packages("rmarkdown")
-install.packages("DT")
-install.packages("maptools")
-install.packages("extrafont")
-install.packages("stringr")
+#install.packages("rmarkdown")
+#install.packages("DT")
+#install.packages("maptools")
+#install.packages("extrafont")
+#install.packages("stringr")
 
